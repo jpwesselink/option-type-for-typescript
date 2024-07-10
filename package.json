@@ -1,0 +1,20 @@
+{
+  "name": "@vitest/example-test",
+  "author": "JP Wesselink <jpwesselink@gmail.com> (https://github.com/jpwesselink)",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  }
+}
